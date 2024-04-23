@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="#" class="logo">
+        BurgerKing.
+      </a>
+      <ul class="navbar-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">product</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="humberger"><i data-feather="align-justify"></i></a>
+      </div>
+    </header>
+
+    <!-- search section start  -->
+    <div class="search-area" id="search-area">
+      <form action="" class="search-form">
+        <i data-feather="search" class="search-icon"></i>
+        <input type="search" placeholder="What are you looking for>" class="search-input">
+       
+      </form>
+      <a href="#" class="search-close"><i data-feather="x"></i></a>
+    </div>
+
+
+    <!-- search section start  -->
+
+
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <div class="text">
+            <h1>THE ULTIMATE BURGER KING</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut
+              assumenda id animi rem consequuntur eaque minus quam ex dolorem
+              aliquid tenetur dolore sapiente reiciendis nobis obcaecati, vitae
+              quaerat fugit. Eos?
+            </p>
+            <a href="#" class="on">Order Now</a>
+            <a href="#" class="vm">View Menu</a>
+          </div>
+        </div>
+        <div class="home-image">
+          <img src="images/Home.png" alt="" class="jumbo" />
+        </div>
+      </div>
+      <div class="thumb">
+        <div class="thumb-box">
+          <img
+            src="images/product-1.png"
+            alt=""
+            onclick="change('images/product-1.png')"
+          />
+        </div>
+        <div class="thumb-box">
+          <img
+            src="images/product-2.png"
+            alt=""
+            onclick="change('images/product-2.png')"
+          />
+        </div>
+        <div class="thumb-box">
+          <img
+            src="images/product-3.png"
+            alt=""
+            onclick="change('images/product-3.png')"
+          />
+        </div>
+        <div class="thumb-box">
+          <img
+            src="images/product-4.png"
+            alt=""
+            onclick="change('images/product-4.png')"
+          />
+        </div>
+        <div class="thumb-box">
+          <img
+            src="images/product-5.png"
+            alt=""
+            onclick="change('images/product-5.png')"
+          />
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <div class="row">
+        <div class="left">
+          <div class="content">
+            <div class="box-left satu">
+              <h5>BURGER</h5>
+            </div>
+            <div class="box-left dua">
+              <img src="images/blog-2.jpg" alt="" />
+            </div>
+            <div class="box-left tiga">
+              <img src="images/blog-1.jpg" alt="" />
+            </div>
+            <div class="box-left empat">
+              <h5>KING</h5>
+            </div>
+            <div class="box box-left">
+              <h5>SINCE 2020 IN CIPAYUNG.</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="content">
+            <h5>GREAT FOOD COMES FIRST</h5>
+            <p>
+              Every day, more than 11 million guests visit BURGER KING®
+              restaurants around the world. And they do so because our
+              restaurants are known for serving high-quality, great tasting, and
+              affordable food. Founded in 1954, BURGER KING® is the second
+              largest fast food hamburger chain in the world.
+            </p>
+            <p>
+              BURGER KING® commenced operations in Indonesia in 2007. Today,
+              Burger King Indonesia operates more than 170 BURGER KING®
+              restaurants in Indonesia where customers across the city can enjoy
+              the great flame-grilled taste of our products. Download the
+              Company Profile from here. Download the Financial Statements for
+              the year 2019 from here and 2020 from here.
+            </p>
+            <p>
+              The original HOME OF THE WHOPPER®, our commitment to premium
+              ingredients, signature recipes, and family-friendly dining
+              experiences is what has defined our brand for more than 50
+              successful years.
+            </p>
+            <a href="#" id="lrn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product" id="product">
+      <h2>Product Us</h2>
+      <div class="row">
+
+        <div class="product-box">
+          <div class="product-toggle">
+            
+            <button><i data-feather="shopping-cart" class="ico" ></i></button>
+            <button class="modal-detail-product"><i data-feather="eye" class="ico"></i></button>
+          </div>
+          <div class="product-img">
+            <img src="images/product-1.png" alt="p1" />
+          </div>
+          <h6>Special Burger King</h6>
+          <div class="star">
+            <i data-feather="star" class="starful"></i><i data-feather="star"  class="starful"></i
+            ><i data-feather="star"  class="starful"></i><i data-feather="star"  class="starful"></i>
+            <i data-feather="star"  class="starful"></i>
+          </div>
+          <p>IDR 5000</p>
+        </div>
+        <div class="product-box">
+          <div class="product-toggle">
+            
+            <button><i data-feather="shopping-cart" class="ico" ></i></button>
+            <button  class="modal-detail-product"><i data-feather="eye" class="ico"></i></button>
+          </div>
+          <div class="product-img">
+            <img src="images/product-1.png" alt="p1" />
+          </div>
+          <h6>Special Burger King</h6>
+          <div class="star">
+            <i data-feather="star" class="starful"></i><i data-feather="star"  class="starful"></i
+            ><i data-feather="star"  class="starful"></i><i data-feather="star"  class="starful"></i>
+            <i data-feather="star"  class="starful"></i>
+          </div>
+          <p>IDR 5000</p>
+        </div>
+        <div class="product-box">
+          <div class="product-toggle">
+            
+            <button><i data-feather="shopping-cart" class="ico" ></i></button>
+            <button class="modal-detail-product"><i data-feather="eye" class="ico"></i></button>
+          </div>
+          <div class="product-img">
+            <img src="images/product-1.png" alt="p1" />
+          </div>
+          <h6>Special Burger King</h6>
+          <div class="star">
+            <i data-feather="star" class="starful"></i><i data-feather="star"  class="starful"></i
+            ><i data-feather="star"  class="starful"></i><i data-feather="star"  class="starful"></i>
+            <i data-feather="star"  class="starful"></i>
+          </div>
+          <p>IDR 5000</p>
+        </div>
+        <div class="product-box">
+          <div class="product-toggle">
+            
+            <button><i data-feather="shopping-cart" class="ico" ></i></button>
+            <button  ><i data-feather="eye" class="ico"></i></button>
+          </div>
+          <div class="product-img">
+            <img src="images/product-1.png" alt="p1" />
+          </div>
+          <h6>Special Burger King</h6>
+          <div class="star">
+            <i data-feather="star" class="starful"></i><i data-feather="star"  class="starful"></i
+            ><i data-feather="star"  class="starful"></i><i data-feather="star"  class="starful"></i>
+            <i data-feather="star"  class="starful"></i>
+          </div>
+          <p>IDR 5000</p>
+        </div>
+        <div class="product-box">
+          <div class="product-toggle">
+            
+            <button><i data-feather="shopping-cart" class="ico" ></i></button>
+            <button><i data-feather="eye" class="ico"></i></button>
+          </div>
+          <div class="product-img">
+            <img src="images/product-1.png" alt="p1" />
+          </div>
+          <h6>Special Burger King</h6>
+          <div class="star">
+            <i data-feather="star" class="starful"></i><i data-feather="star"  class="starful"></i
+            ><i data-feather="star"  class="starful"></i><i data-feather="star"  class="starful"></i>
+            <i data-feather="star"  class="starful"></i>
+          </div>
+          <p>IDR 5000</p>
+        </div>
+        <div class="product-box">
+          <div class="product-toggle">
+            
+            <button><i data-feather="shopping-cart" class="ico" ></i></button>
+            <button><i data-feather="eye" class="ico"></i></button>
+          </div>
+          <div class="product-img">
+            <img src="images/product-1.png" alt="p1" />
+          </div>
+          <h6>Special Burger King</h6>
+          <div class="star">
+            <i data-feather="star" class="starful"></i><i data-feather="star"  class="starful"></i
+            ><i data-feather="star"  class="starful"></i><i data-feather="star"  class="starful"></i>
+            <i data-feather="star"  class="starful"></i>
+          </div>
+          <p>IDR 5000</p>
+        </div>
+        
+        
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7715272376877!2d106.8002466744282!3d-6.423394462815455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e99d9cc75815%3A0x2f0544ee32dc15e1!2sJl.%20Asa%20No.73%2C%20Cipayung%2C%20Kec.%20Cipayung%2C%20Kota%20Depok%2C%20Jawa%20Barat%2016442!5e0!3m2!1sid!2sid!4v1707920433896!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="#">
+          <h1>Message To Us</h5>
+          <div class="input-form">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="input-form">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-form message">
+            <i data-feather="message-square"></i>
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Write Message"
+            ></textarea>
+          </div>
+          <button type="submit" class="sbmt">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="content">
+        <div class="info">
+          <div  class="logo">
+          <a href="#">
+            BurgerKing.
+          </a>
+        </div>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#product">Product</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="office">
+          <div class="location">
+            <i data-feather="map-pin"></i>
+            <p><span>indonesia</span>Asa No 73 Cipayung Depok </p>
+          </div>
+          <div class="phone">
+            <i data-feather="phone"></i>
+            <p><span>indonesia</span>Asa No 73 Cipayung Depok </p>
+          </div>
+        
+          
+        </div>
+        <div class="socials">
+          <h3>Follow Us</h3>
+          <a href="#"><i data-feather="instagram"></i></a>
+          <a href="#"><i data-feather="twitter"></i></a>
+          <a href="#"><i data-feather="facebook"></i></a>
+          
+          
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy;2024 BurgerKing. By Anwar Hakim. All right reserved</p>
+      </div>
+    </footer>
+
+
+
+    <!-- modal box item detail -->
+      <div class="modal-detail">
+        <div class="modal-container">
+          <a href="#" class="modal-close"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="images/product-1.png" alt="">
+            <div class="modal-product">
+              <h1>product 1</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, nisi dignissimos! Deserunt porro, vero unde perferendis iste possimus qui, perspiciatis dolor vel, quo voluptas atque! Voluptate dolorem natus modi culpa.</p>
+              <div class="star">
+                <i data-feather="star" class="starful"></i><i data-feather="star"  class="starful"></i
+                ><i data-feather="star"  class="starful"></i><i data-feather="star"  class="starful"></i>
+                <i data-feather="star"  class="starful"></i>
+              </div>
+              <p>IDR 5000</p>
+
+              <button type="button" class="modalbtn"><i data-feather="shopping-cart"></i>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-detail">
+        <div class="modal-container">
+          <a href="#" class="modal-close"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="images/product-2.png" alt="">
+            <div class="modal-product">
+              <h1>product 1</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, nisi dignissimos! Deserunt porro, vero unde perferendis iste possimus qui, perspiciatis dolor vel, quo voluptas atque! Voluptate dolorem natus modi culpa.</p>
+              <div class="star">
+                <i data-feather="star" class="starful"></i><i data-feather="star"  class="starful"></i
+                ><i data-feather="star"  class="starful"></i><i data-feather="star"  class="starful"></i>
+                <i data-feather="star"  class="starful"></i>
+              </div>
+              <p>IDR 5000</p>
+
+              <button type="button" class="modalbtn"><i data-feather="shopping-cart"></i>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-detail">
+        <div class="modal-container">
+          <a href="#" class="modal-close"><i data-feather="x"></i></a>
+          <div class="modal-content">
+            <img src="images/product-3.png" alt="">
+            <div class="modal-product">
+              <h1>product 1</h1>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, nisi dignissimos! Deserunt porro, vero unde perferendis iste possimus qui, perspiciatis dolor vel, quo voluptas atque! Voluptate dolorem natus modi culpa.</p>
+              <div class="star">
+                <i data-feather="star" class="starful"></i><i data-feather="star"  class="starful"></i
+                ><i data-feather="star"  class="starful"></i><i data-feather="star"  class="starful"></i>
+                <i data-feather="star"  class="starful"></i>
+              </div>
+              <p>IDR 5000</p>
+
+              <button type="button" class="modalbtn"><i data-feather="shopping-cart"></i>Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+    <!-- modal box item detail -->
+
+    <script src="script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
